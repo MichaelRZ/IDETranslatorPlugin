@@ -1,0 +1,47 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "IDE Translator",
+        "submenu": [
+          {
+            "label": "Chinese",
+            "command": "multiple-find-replace:chinese"
+          },
+	{
+		"label": "Spanish",
+            "command": "multiple-find-replace:spanish"
+	},
+	    {
+	    "label": "Hindi",
+            "command": "multiple-find-replace:hindi"
+	    }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "IDE Translator",
+          "submenu": [
+            {
+            "label": "Chinese",
+            "command": "multiple-find-replace:chinese"
+            },
+	    {
+	    "label": "Spanish",
+            "command": "multiple-find-replace:spanish"
+	    },
+	    {
+	    "label": "Hindi",
+            "command": "multiple-find-replace:hindi"
+	    }
+          ]
+        }
+      ]
+    }
+  ]
+}

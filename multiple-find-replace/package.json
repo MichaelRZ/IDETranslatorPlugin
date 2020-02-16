@@ -1,0 +1,60 @@
+{
+  "_from": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+  "_id": "multiple-find-replace@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-n3+OPn1PBO9Z5oW0gRGPcJdtynLwdhrwZQCoIav/lYU5rU97FH4N+QvS4FPoOEVhDcH6RuhAZDw9okkZd5xtRQ==",
+  "_location": "/multiple-find-replace",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+  "_shasum": "5868a0342940c5072198ea3bada72fdf91cb99eb",
+  "_spec": "https://www.atom.io/api/packages/multiple-find-replace/versions/1.2.0/tarball",
+  "_where": "/private/var/folders/0k/nc58n8h93gv4st90y6csr1fh0000gn/T/apm-install-dir-120114-29820-33bul6.lq5cw",
+  "activationCommands": {
+    "atom-workspace": [
+      "multiple-find-replace:replace",
+      "multiple-find-replace:find",
+	"multiple-find-replace:spanish",
+      "multiple-find-replace:chinese",
+	"multiple-find-replace:hindi"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/pgilfernandez/multiple-find-replace/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Multiple find and replace",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/pgilfernandez/multiple-find-replace#readme",
+  "keywords": [
+    "multiple",
+    "find",
+    "replace",
+    "sublime",
+    "text",
+    "batch",
+    "pgilfernandez"
+  ],
+  "license": "MIT",
+  "main": "./lib/multiple-find-replace",
+  "name": "multiple-find-replace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgilfernandez/multiple-find-replace.git"
+  },
+  "version": "1.2.0"
+}

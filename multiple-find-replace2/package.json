@@ -1,0 +1,28 @@
+{
+  "name": "multiple-find-replace2",
+  "main": "./lib/multiple-find-replace2",
+  "version": "1.2.0",
+  "description": "Multiple find and replace2",
+  "keywords": [
+    "multiple",
+    "find",
+    "replace",
+    "sublime",
+    "text",
+    "batch",
+    "pgilfernandez"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "multiple-find-replace2:replace",
+      "multiple-find-replace2:find"
+    ]
+  },
+  "homepage": "https://github.com/pgilfernandez/multiple-find-replace#readme",
+  "repository": "https://github.com/pgilfernandez/multiple-find-replace",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

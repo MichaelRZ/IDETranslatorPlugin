@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-cmd-r": "multiple-find-replace2:replace",
+    "ctrl-alt-cmd-R": "multiple-find-replace2:replace",
+    "shift-ctrl-alt-cmd-r": "multiple-find-replace2:find",
+    "shift-ctrl-alt-cmd-R": "multiple-find-replace2:find"
+  }
+}
