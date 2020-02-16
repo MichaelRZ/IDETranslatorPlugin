@@ -1,0 +1,50 @@
+# This file is used by Flex Tool Bar to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/flex-tool-bar
+
+[
+  # {
+  #   type: "button"
+  #   icon: "gear"
+  #   callback: "flex-tool-bar:edit-config-file"
+  #   tooltip: "Edit Tool Bar"
+  # }
+
+  {
+    type: "button"
+    icon: "globe"
+    callback: "multiple-find-replace:replace"
+    tooltip: "Translate code into foreign language"
+    show: {
+      pattern: "*.cpp"
+    }
+  }
+
+  {
+    type: "button"
+    icon: "alphabetical"
+    iconset: "mdi"
+    callback: "multiple-find-replace2:replace"
+    tooltip: "Translate code back into English"
+    show: {
+      pattern: "*.cpp"
+    }
+  }
+  {
+    type: "spacer"
+    show: {
+      pattern: "*.cpp"
+    }
+  }
+  {
+    type: "button"
+    icon: "language-cpp"
+    iconset: "mdi"
+    callback: ["multiple-find-replace2:replace", "script:run"]
+    tooltip: "Translate and run code"
+    show: {
+      pattern: "*.cpp"
+    }
+  }
+
+]
